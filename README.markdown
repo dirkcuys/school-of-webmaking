@@ -1,5 +1,4 @@
 A platform for Webmaker Training (Still a WIP)
-
 ---
 
 [![Build Status](https://travis-ci.org/p2pu/school-of-webmaking.png)](https://travis-ci.org/p2pu/school-of-webmaking)
