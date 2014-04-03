@@ -15,5 +15,4 @@ after_success:
 - bundle exec s3_website push --headless
 env:
   global:
-  - secure: dZTVrs2O76OByAnvEUkeCGHyPJ8rz5IJVEa4oqmd79PcEP+nHbngBfc8a+1JjlOt+RR4VhGTRlF40/e5qULxQJWuXnA2pl1eZsPTiujy6T+R9B53B+y3aB7rXzcPdxnH2+TbcFdw9wYpTaz8QKT8MftAaUenAXkfCYqaJy5LbhY=
-  - secure: CaNTf0KOdTF1zhrXIMx1n5Yl3OA9stOlY6Sip2vlbjMA0bYTZlwp1W8oW0bDt8mYnQWrOMV2JLVjeyBTAyfhzR3EfEJ2PE3o8xFgzdTQKXrWVKKeuD9sgUVCbwBrfE7726zKw6QwQYrEmVF3f8ASbL6ZgN+n3c/f8VIJqudq3mk=
+  - secure: "e1zuwcuAUnHlkhFTdHLOsbN7QP79kORVTN8aPw463FsnGxtDHNh+WrvtOeYmJ5QywOMSlbpA3/kv7YnZuQiIHRCLkdAcDZjKxboK1p5T6+aGC8azM5rlKl+6YlikrxBN528RJvM3rBOW4XMe24f+QPS0perLoxLIGbr36KzIHJE="
