@@ -1,6 +1,6 @@
 s3_id: <%= ENV['AWS_ACCESS_KEY'] %>
 s3_secret: <%= ENV['AWS_SECRET_KEY'] %>
-s3_bucket: p2pu-ttw.s3-website-us-east-1.amazonaws.com
+s3_bucket: ttw.p2pu.org
 
 exclude_from_upload:
   - CNAME
