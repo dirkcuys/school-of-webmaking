@@ -15,5 +15,5 @@ after_success:
 - bundle exec s3_website push --headless
 env:
   global:
-  - secure: TIZcr3zLyStnnqo4WefqWt3Q3nbB3C5Lt3MdEs+e7RA7P8dZQNspuNDZ0Z2MQ0xWzinWNn94ErNrAct07+CBiEHdnhZzvjb3fBI7OekKiuPTMTBt66w6BbqiwZDLRLNBeNR9q2CZ4WWubzs/VceUdr5VhkNRPUx8gC14bOd5foI=
-  - secure: f/tl0/q9SRvyx7BHQzJf24wNgGfaldGTNCJkZym/I/NfsIANUrJGRD4qPmV/aFMcm7KEm00OIzj+YzYVTR1RCCwHpYnlixUJ0TZp2rX7vTmo4Kjj7BeD09kQlipThiWRMihVOBscdTCFMNyqysXFuWeaHagNYMeilthLeH1JnNg=
+  - secure: VUgqKzT3bzZfHG1cch8gr/F3/PGHPPUsURP1dyed8SuK/NUGC5vsAG9CRuxxSQ8HWHxhcJtzoPfrmSF6At1GyxcXUZIx9UcLBg96h1VF0WQ+9djseYZE658vHEmWT/xAdTSfQ+9ifaifLTkps14fbNEdkzm9hZsdkPrtgivyedM=
+  - secure: dKA7fgqicZxLmYvOh1W7Eigw6hGLRIbWHy8N3B3qZrvPWQwxTzH75HrUxkaWyCKEo0FA8vDtV1Uwh6jw/lhXqavDuErZNt4uMWrsMO6NKfz1DBYNkGeNsGsQEIHJlSwxyug5eZRD+LxR9tiTeF7GehiIi3xbJN99LBkXy/6bkQY=
