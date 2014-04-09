@@ -32,9 +32,9 @@
   <div id="wrap">
     {% assign topnav = 'topnav-' | append:language | append:'.html' }} %}
     {% include {{topnav}} %}
-<div class="container">
-    {{ content }}
-</div>
+    <div class="container">
+      {{ content }}
+    </div>
   </div>
 
   {% include footer.html %}

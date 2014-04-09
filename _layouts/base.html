@@ -26,8 +26,12 @@
 <body {% if page.itemtype %}itemscope itemtype="{{page.itemtype}}"{% endif %}>
 
   <div id="wrap">
-    {% assign topnav = 'topnav-' | append:language | append:'.html' }} %}
-    {% include {{topnav}} %}
+    {% if site.languages contains language %}
+      {% assign topnav = 'topnav-' | append:language | append:'.html' }} %}
+      {% include {{topnav}} %}
+    {% else %}
+      {% include topnav-en.html %}
+    {% endif %}
  
     <div class="container body">
       {{ content }}

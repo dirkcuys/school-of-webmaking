@@ -1,10 +1,14 @@
 /* Write the div with participant avatars */
-function write_discourse_div(data, topic_url)
-{
+function write_discourse_div(data, topic_url) {
     $('#discourse').html('<div id="comments"></div><div id="participants"></div>');
     var part_div = $('#discourse #participants');
-    if (data.participants.lenght > 1){
-        part_div.append( '<p>' + data.participants.length + ' people are talking about this.</p>');
+    if (data.posts_count > 1) {
+        if (data.participants.length == 1) {
+            part_div.append( '<p>One person is talking about this.</p>');
+        }
+        else {
+            part_div.append( '<p>' + data.participants.length + ' people are talking about this.</p>');
+        }
         part_div.append('<p>');
         $.each(data.participants, function (i, participant) {
             var avatar_url = participant.avatar_template.replace('\{size\}', "45");
