@@ -1,0 +1,16 @@
+[submodule "_posts/exploring"]
+	path = _posts/exploring
+	url = https://github.com/dirkcuys/ttw-exploring.git
+	branch = gh-pages
+[submodule "_posts/building"]
+	path = _posts/building
+	url = https://github.com/dirkcuys/ttw-building.git
+	branch = gh-pages
+[submodule "_posts/facilitating"]
+	path = _posts/facilitating
+	url = https://github.com/dirkcuys/ttw-facilitating.git
+	branch = gh-pages
+[submodule "_posts/connecting"]
+	path = _posts/connecting
+	url = https://github.com/dirkcuys/ttw-connecting.git
+	branch = gh-pages
