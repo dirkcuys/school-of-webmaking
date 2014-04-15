@@ -2,6 +2,7 @@ exploring:
   title: "Exploring"
   category: exploring
   language: en
+  fork_url: https://github.com/dirkcuys/ttw-exploring
   based_on:
   image: /img/discover-360px.jpg
   image_attribution: http://www.flickr.com/photos/mozillaeu/10491775973/in/photostream/
@@ -15,6 +16,7 @@ building:
   title: "Building"
   category: building
   language: en
+  fork_url: https://github.com/dirkcuys/ttw-building
   based_on:
   image: /img/building-360px.jpg
   image_attribution: https://secure.flickr.com/photos/debloper/10607673915/in/photostream/
@@ -28,6 +30,7 @@ facilitating:
   title: "Facilitating"
   category: facilitating
   language: en
+  fork_url: https://github.com/dirkcuys/ttw-facilitating
   based_on:
   image: /img/facilitating-360px.jpg
   organizers:
@@ -40,6 +43,7 @@ connecting:
   category: connecting
   language: en
   image: /img/connecting-360px.png
+  fork_url: https://github.com/dirkcuys/ttw-connecting
   based_on: 
   organizers:
    - name: Laura
